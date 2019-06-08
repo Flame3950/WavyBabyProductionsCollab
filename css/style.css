@@ -726,9 +726,7 @@ a:hover {
 */
 
 .intro .text-slider-items {
-  display: none;
-  
-  h1 {
+      display: none;
       color: #fff;
       font-size: 92px;
       font-family: 'ubuntu';
@@ -746,7 +744,7 @@ a:hover {
       -webkit-text-fill-color: transparent;
       animation: textclip 1.5s linear infinite;
       display: inline-block;
-	}
+	
 	
 }
 
