@@ -32,31 +32,35 @@
   animation: notes 2s infinite linear;
   font-size: 35px;
   opacity: 0;
-  color:white;
+ 
 }
 
 .note1 {
   top: 60px;
   left: 0;
   animation-delay: 0.5s;
+  color:white;
 }
 
 .note2 {
   top: 30px;
   left: 30%;
   animation-delay: 1s;
+  color:white;
 }
 
 .note3 {
   top: 90px;
   left: 60%;
   animation-delay: 1.5s;
+  color:white;
 }
 
 .note4{
   top: 40px;
   left: 90%;
   animation-delay: 2s;
+  color:white;
 }
 
 .note5{
