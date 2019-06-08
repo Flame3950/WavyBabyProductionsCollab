@@ -32,7 +32,7 @@
   animation: notes 2s infinite linear;
   font-size: 35px;
   opacity: 0;
-  color:#d3af37;
+  color:white;
 }
 
 .note1 {
@@ -64,6 +64,7 @@
   left: 45%;
   animation-delay: 5s;
   font-size: 50px;
+  color:cfb53b;
 }
 
 .note6{
@@ -72,6 +73,7 @@
   width:40%
   animation-delay: 3s;
   font-size: 100px;
+  color:cfb53b;
 }
 
 
@@ -733,26 +735,7 @@ a:hover {
 		
       font-weight: 700;
       font-family: 'Josefin Sans',sans-serif;
-      background: linear-gradient(to right,#697dff 10%,#fff 50%,#5bdaff 60%);
-      background-size: auto auto;
-      background-clip: border-box;
-      background-size: 200% auto;
-      color: #fff;
-      background-clip: text;
-      text-fill-color: transparent;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: textclip 1.5s linear infinite;
-      display: inline-block;
-	
-	
-}
-
-@keyframes textclip {
- to {
-  background-position:200% center
- }
-}
+      
 }
 
 .intro-single {
