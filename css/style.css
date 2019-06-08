@@ -728,7 +728,7 @@ a:hover {
 .intro .text-slider-items {
       display: none;
       color: #fff;
-      font-size: 92px;
+      font-size: 40px;
       font-family: 'ubuntu';
 		
       font-weight: 700;
@@ -769,6 +769,7 @@ a:hover {
   font-size: 3rem;
 }
 
+/*
 .intro-single .breadcrumb {
   background-color: transparent;
   color: #0078ff;
@@ -785,7 +786,7 @@ a:hover {
 .intro-single .breadcrumb a {
   color: #fff;
 }
-
+*/
 /*======================================
 //--//-->   ABOUT
 ======================================*/
