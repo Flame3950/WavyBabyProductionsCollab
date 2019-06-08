@@ -12,18 +12,16 @@
 
 /*-->Music notes
 /*-------------------------*/
-/*
+
 .musicnotes {
  display: block; 
   margin: auto;
   position: relative;
   width: 50%;
   min-width: 300px;
-  height: 200px;
+  height: 400px;
   border: 0px solid #000;
 }
-
-*/
 
 .note1,
 .note2,
