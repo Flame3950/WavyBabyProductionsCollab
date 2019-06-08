@@ -26,7 +26,8 @@
 .note2,
 .note3,
 .note4,
-.note5{
+.note5,
+.note6{
   position: absolute;
   animation: notes 2s infinite linear;
   font-size: 35px;
@@ -64,6 +65,15 @@
   animation-delay: 5s;
   font-size: 50px;
 }
+
+.note6{
+  top: 70px;
+  left: 50%;
+  width:40%
+  animation-delay: 0s;
+  font-size: 50px;
+}
+
 
 @keyframes notes {
   0% {
