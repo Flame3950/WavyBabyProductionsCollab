@@ -30,6 +30,7 @@
   animation: notes 2s infinite linear;
   font-size: 35px;
   opacity: 0;
+  color:white;
 }
 
 .note1 {
@@ -73,7 +74,7 @@
     transform: scale(1.5) translate(100%, -100%);
     opacity: 0;
   }
-
+}
 
 
 
