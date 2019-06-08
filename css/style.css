@@ -25,7 +25,8 @@
 .note1,
 .note2,
 .note3,
-.note4 {
+.note4,
+.note5{
   position: absolute;
   animation: notes 2s infinite linear;
   font-size: 35px;
