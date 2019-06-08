@@ -12,8 +12,25 @@
 
 /*-->Music notes
 /*-------------------------*/
+ul li {
+    display: block;
+    float: left;
+    font-size: 2em;
+    color: #ccc;
+    text-shadow: 0 -1px 0 white, 0 1px 0 black;
+}
+.anim {
+    -webkit-animation: music 1s ease-in-out both infinite;
+}
 
-
+@-webkit-keyframes music {
+    0%,100% {
+        -webkit-transform: translate3d(0,-10px,0);
+    }
+    50% {
+        -webkit-transform: translate3d(0,10px,0);
+    }
+}
 
 
 
