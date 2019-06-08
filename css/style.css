@@ -57,6 +57,12 @@
   animation-delay: 2s;
 }
 
+.note5{
+  top: 70px;
+  left: 45%;
+  animation-delay: 5s;
+}
+
 @keyframes notes {
   0% {
     transform: scale(1) translate(0, 0);
