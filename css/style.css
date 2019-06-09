@@ -12,7 +12,8 @@
 /*----Slogan---*/
 
 .forever{
-         text-align:left;
+         left: 30%;
+	 top:  40%;
          color:white;
 	 opacity:0.5;
          -webkit-animation: text-flicker-in-glow 6s linear both;
