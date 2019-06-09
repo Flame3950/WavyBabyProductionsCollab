@@ -13,8 +13,8 @@
 .title{
 	-webkit-animation-duration: 2s;
          animation-duration: 2s;
-        -webkit-animation-name: hinge;
-         animation-name: hinge;	
+        -webkit-animation: hinge 4s ease-in both;
+         animation: hinge 4s ease-in both;	
 }
 
 @-webkit-keyframes hinge {
