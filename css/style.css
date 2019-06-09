@@ -13,14 +13,14 @@
 
 .forever{
          position:left;
-
+         color:white;
          -webkit-animation: text-flicker-in-glow 6s linear both;
 	        animation: text-flicker-in-glow 6s linear both; 
 }
 
 .wavy{
        position:right;
-
+       color:white;
         -webkit-animation: text-flicker-in-glow 6s linear both;
 	        animation: text-flicker-in-glow 6s linear both;
 }
