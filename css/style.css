@@ -12,8 +12,8 @@
 /*----Slogan---*/
 
 .forever{
-         left: 30%;
-	 top:  40%;
+         left: 70%;
+	 top:  90%;
          color:white;
 	 opacity:0.5;
          -webkit-animation: text-flicker-in-glow 6s linear both;
