@@ -10,7 +10,7 @@
 ======================================*/
 
 /*----Title animation---*/
-.navbar-brand js-scroll{
+.navbar-brand{
 	
         -webkit-animation: hinge 4s ease-in both;
          animation: hinge 4s ease-in both;	
