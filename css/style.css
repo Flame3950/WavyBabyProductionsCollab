@@ -12,8 +12,8 @@
 /*----Title animation---*/
 .navbar-brand{
 	
-        -webkit-animation: hinge 4s ease-in both;
-         animation: hinge 4s ease-in both;	
+        -webkit-animation: hinge 4s both;
+         animation: hinge 4s both;	
 }
 
 @-webkit-keyframes hinge {
