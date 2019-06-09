@@ -12,14 +12,14 @@
 /*----Slogan---*/
 
 .forever{
-         position:left;
+         text-align:left;
          color:white;
          -webkit-animation: text-flicker-in-glow 6s linear both;
 	        animation: text-flicker-in-glow 6s linear both; 
 }
 
 .wavy{
-       position:right;
+       text-align:right;
        color:white;
         -webkit-animation: text-flicker-in-glow 6s linear both;
 	        animation: text-flicker-in-glow 6s linear both;
