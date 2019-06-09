@@ -12,18 +12,17 @@
 /*----Slogan---*/
 
 .forever{
-         left: 70%;
-	 top:  90%;
-         color:white;
-	 opacity:0.5;
+         
+         
+	 opacity:1;
          -webkit-animation: text-flicker-in-glow 6s linear both;
 	        animation: text-flicker-in-glow 6s linear both; 
 }
 
 .wavy{
-       text-align:right;
-       color:white;
-       opacity:0.5;
+       
+       
+       opacity:1;
         -webkit-animation: text-flicker-in-glow 6s linear both;
 	        animation: text-flicker-in-glow 6s linear both;
 }
