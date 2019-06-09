@@ -11,8 +11,7 @@
 
 /*----Title animation---*/
 .title{
-	-webkit-animation-duration: 2s;
-         animation-duration: 2s;
+	
         -webkit-animation: hinge 4s ease-in both;
          animation: hinge 4s ease-in both;	
 }
