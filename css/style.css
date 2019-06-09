@@ -20,8 +20,8 @@
   0% {
     -webkit-transform-origin: top left;
     transform-origin: top left;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
 
   20%,
@@ -30,8 +30,8 @@
     transform: rotate3d(0, 0, 1, 80deg);
     -webkit-transform-origin: top left;
     transform-origin: top left;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
 
   40%,
@@ -40,8 +40,8 @@
     transform: rotate3d(0, 0, 1, 60deg);
     -webkit-transform-origin: top left;
     transform-origin: top left;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
     opacity: 1;
   }
 
@@ -56,8 +56,8 @@
   0% {
     -webkit-transform-origin: top left;
     transform-origin: top left;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
 
   20%,
@@ -66,8 +66,8 @@
     transform: rotate3d(0, 0, 1, 80deg);
     -webkit-transform-origin: top left;
     transform-origin: top left;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
 
   40%,
@@ -76,8 +76,8 @@
     transform: rotate3d(0, 0, 1, 60deg);
     -webkit-transform-origin: top left;
     transform-origin: top left;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
     opacity: 1;
   }
 
