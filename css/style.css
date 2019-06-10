@@ -26,7 +26,7 @@
 .navbar-brand{
 	-webkit-animation: rubberBand 6s;
          animation: rubberBand 6s;
-       
+         font-family: Lobster;
 }
 
 @-webkit-keyframes rubberBand {
