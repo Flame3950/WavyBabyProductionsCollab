@@ -9,6 +9,37 @@
 //--//-->   STYLES GENERALES
 ======================================*/
 
+/*----Waves----*/
+
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+$delay = 0.002
+$size = 4
+
+
+.line
+  background: #46a1de
+  width: ($size)px
+  height: 1px
+  float: left
+  animation: wave 1s infinite ease-in-out alternate
+  z-index: 1
+  position:absolute
+  
+for $i in (1..480) 
+  .line:nth-child({$i})
+    animation-delay:($delay*$i)s;
+    left: ($size*$i)px;
+
+@keyframes wave {
+  0%{
+    transform: translateY(-10px);
+    height: 11px;}
+  100%{
+    transform: translateY(-100px);
+    height: 100px;}
+}
+
+
 /*----Title animation---*/
 .navbar-brand{
 	-webkit-animation: rubberBand 6s;
