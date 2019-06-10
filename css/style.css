@@ -13,7 +13,12 @@
 
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 
-
+.wavybaby{
+	 text-align:center;
+	 padding-top:25px;
+	 font-family: Lobster;
+	
+}
 
 
 /*----Title animation---*/
