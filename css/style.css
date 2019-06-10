@@ -16,13 +16,14 @@
 
 
 .line{
-  background: #46a1de
-  width: 4)px
-  height: 1px
-  float: left
-  animation: wave 1s infinite ease-in-out alternate
-  z-index: 1
-  position:absolute
+  background: #46a1de;
+  width: 4px;
+  height: 1px;
+  float: left;
+  -webkit-animation: wave 1s infinite ease-in-out alternate;
+  animation: wave 1s infinite ease-in-out alternate;
+  z-index: 1;
+  position:absolute;
 }
 
 @-moz-keyframes wave {
