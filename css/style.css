@@ -9,6 +9,13 @@
 //--//-->   STYLES GENERALES
 ======================================*/
 
+/*----Waves----*/
+
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+
+
+
 /*----Title animation---*/
 .navbar-brand{
 	-webkit-animation: rubberBand 6s;
@@ -1833,4 +1840,9 @@ footer .credits a {
   .back-to-top {
     bottom: 15px;
   }
+	
+	
+	
+
+	
 }
