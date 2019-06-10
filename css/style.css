@@ -1197,12 +1197,12 @@ a:hover {
   font-weight: 600;
   font-size: 3rem;
 }
-
+*/
 .intro .intro-subtitle {
   font-size: 1.5rem;
-  font-weight: 300;
+  font-family:Lobster;
 }
-*/
+
 
 .intro .text-slider-items {
       display: none;
