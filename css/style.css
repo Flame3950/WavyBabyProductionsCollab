@@ -180,6 +180,185 @@
 }
 }
 
+
+#forward{
+        margin-left: 2em;
+        margin-right: 2em;
+        color: gray;
+        font-size: 1.5em;
+        cursor: pointer;
+        position: relative;
+        z-index: 5
+        +transition(0.2s)
+        &:hover;
+          color: white;
+}
+    
+.song-list{
+      width: 100%;
+      position: absolute;
+      height: 20em;
+      bottom: -53%;
+      z-index: 100;
+      background: blue
+      +transition(0.7s)
+      &.active
+        bottom: 0%;
+}
+        
+.line{
+        width: 95%;
+        height: 1px;
+        background: rgba(255,255,255,0.1);
+        position: absolute;
+        left: 50%;
+        +transform(translateX(-50%));
+        margin-top: 3.4em;
+        &.two;
+          margin-top: 6.4em;
+        &.three;
+          margin-top: 9.2em;
+        &.four;
+          margin-top: 12em;
+
+      
+      table{
+        color: rgba(255,255,255,0.55);
+        padding: 0 2%;
+        position: relative;
+	}
+}
+        
+.line{
+          width: 80%;
+          height: 5px;
+          background: white;
+          position: absolute;
+          z-index: 10000;
+        tr{
+          cursor: pointer
+          &:hover;
+	}
+            td{
+              color: purple;
+              padding-top: 1.5em
+            +transition(0.2s);
+	}
+	}	
+	
+.num{
+	    font-size: 0.7em;
+            position: relative;
+            top: 5px;
+            font-weight: 300;
+	}
+	
+          
+.title{
+            padding-left: 3em;
+            display: inline-block;
+            color: white;
+            width: 300px;
+            font-weight: 300;
+	}
+          
+	
+.length{
+            padding-left: 4em;
+            font-size: 0.7em;
+            position: relative;
+            top: 5px;
+            font-weight: 300;
+	}
+    
+.volume{
+      i{
+        display: inline-block;
+        position: absolute;
+        color: rgba(255,255,255,0.3);
+        margin-top: -0.5em
+        +transition(0.2s);
+        cursor: pointer
+        &:hover;
+          color: $white;
+        &#volume-off;
+          margin-left: 2.5em;
+        &#volume-up;
+          margin-left: 21.7em;
+	}
+		
+.slider-volume{
+        position: relative;
+        z-index: 10;
+        background: rgba(0,0,0,0.3);
+        border: none;
+        border-radius: 0px;
+        height: 3px;
+        width: 60%;
+        left: 50%;
+        +transform(translateX(-50%));
+        margin-top: 2.7em;
+	
+	
+        cursor: pointer;
+	
+	}
+	
+	
+.ui-slider-range{
+          background: purple;
+	}
+	
+.ui-slider-handle{
+          display: none
+          &:focus
+            outline: none;
+            background: white;
+	}
+	
+ .slide-up{
+      position: absolute;
+      bottom: 0%;
+      left: 50%;
+      +transform(translateX(-50%) translateY(-50%))
+      z-index: 1000;
+      
+      i{
+        margin-left: 50%;
+        font-size: 1.3em;
+        cursor: pointer;
+        color: $white
+        +transform(translateX(-50%))
+        +transition(0.3s)
+        &:hover
+          color: purple;
+	 }
+	}
+	
+.social{
+  text-align: center;
+  margin-top: 3em;
+	
+  i{
+    color: white;
+    margin-left: 1em;
+    margin-right: 1em
+    +transition(0.2s)
+    &:hover
+      color: gray;
+      +transform(rotate(20deg));
+	}
+	 }
+  
+      
+
+
+
+
+
+
+
+
 /*----Waves----*/
 
 @import url(https://fonts.googleapis.com/css?family=Lobster);
