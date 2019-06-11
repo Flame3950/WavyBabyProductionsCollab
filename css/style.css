@@ -670,6 +670,8 @@ a:hover {
   height: 100%;
   width: 100%;
   background-color:white;
+  border-top: 5px solid #cc5500;
+  border-bottom:5px solid #0078ff;
  
   
 }
@@ -721,11 +723,12 @@ a:hover {
 .title-a {
   font-size: 3rem;
   font-weight: bold;
-  text-transform: uppercase;
+  color:white;
+  font-family: Lobster;
 }
 
 .subtitle-a {
-  color: #4e4e4e;
+  color: white;
 }
 
 .line-mf {
@@ -1300,7 +1303,7 @@ a:hover {
 
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  color: #cc5500;
 }
 
 .service-box .ico-circle {
@@ -1310,7 +1313,6 @@ a:hover {
 
 .service-box .s-title {
   font-size: 1.4rem;
-  text-transform: uppercase;
   text-align: center;
   padding: .4rem 0;
 }
