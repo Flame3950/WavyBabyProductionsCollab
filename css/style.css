@@ -63,6 +63,33 @@
             +transition(1s)
 }
 
+.slider{
+      position: relative;
+      z-index: 100;
+      background: gray;
+      border: none
+      border-radius: 0px;
+      height: 5px;
+      width: 100%;
+      cursor: pointer;
+	      
+}
+
+ .ui-slider-range{
+        background: green;
+		
+}
+      
+.ui-slider-handle{
+        width: 3px;
+        margin-left: 0px;
+        height: 15px;
+        top: 1px;
+        &:focus;
+        outline: none;
+        background: white;
+
+}
 
 
 /*----Waves----*/
