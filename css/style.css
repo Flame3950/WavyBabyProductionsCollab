@@ -38,7 +38,7 @@
 }
 
 .band{
-        background: url(img/islandluckcover.png) no-repeat top center;
+        background-image: url(img/islandluckcover.png) no-repeat top center;
         background-size: cover;
         width: 100%;
         height: 20em;
