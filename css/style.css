@@ -20,9 +20,10 @@
     margin: 0 auto;
     border-radius: 25px;
     margin-top: 1em;
-    background: #cc5500;
+    background: black;
     font-family: Lobster;
     overflow: hidden;
+    color:white;
 }
 
 .picture-section{
