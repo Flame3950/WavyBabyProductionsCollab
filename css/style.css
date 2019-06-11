@@ -41,9 +41,9 @@
         background-image: url(img/islandluckcover.png) no-repeat top center;
         background-size: cover;
         width: 100%;
-        height: 20em;
-        +filter(brightness(40%) opacity(60%) blur(1px));
-        +transition(0.2s);
+        height: 20em
+        +filter(brightness(40%) opacity(60%) blur(1px))
+        +transition(0.2s)
         &:hover
           +filter(brightness(30%) opacity(65%) blur(1px));
 }
@@ -55,19 +55,19 @@
           top: 0;
           opacity: 0;
           height: 48%;
-          width: 100%;
+          width: 100%
           +transition(0.7s);
           &.active;
             opacity: 1;
-            height: 100%;
-            +transition(1s)
+            height: 100%
+            +transition(1s);
 }
 
 .slider{
       position: relative;
       z-index: 100;
       background: gray;
-      border: none
+      border: none;
       border-radius: 0px;
       height: 5px;
       width: 100%;
@@ -91,6 +91,94 @@
 
 }
 
+
+.time{
+      position: relative;
+      color: rgba(255,255,255,0.8);
+      font-size: 0.8em;
+      font-weight: 300;
+      padding: 2%;
+}
+
+.start{
+        display: inline-block;
+}
+      
+.end{
+        display: inline-block;
+        margin-left: 25.5em;
+}
+	
+.song-title{
+      text-align: center;
+      margin-top: -0.4em;
+}
+      
+.artist{
+        color: white;
+}
+      
+.song{
+        color: rgba(255,255,255,0.6);
+        font-weight: 300;
+        font-size: 0.9em;
+        margin-top: 0.1em;
+}
+   
+.playlist-controls{
+      text-align: center;
+      margin-top: 1.8em
+      +transition(0.7s cubic-bezier(.87,-.41,.19, 1.10))
+       &.active;
+        margin-top: -13em
+        +transition(0.7s cubic-bezier(.87,-.41,.19, 1.10));
+}
+        
+.circle{
+          top: 13.5em;
+          background: rgba(255,255,255,0.03);
+}
+           
+.circle{
+        position: absolute;
+        height: 4em;
+        width: 4em;
+        background: rgba(255,255,255,0.07);
+        border-radius: 50%;
+        margin-left: 10.4em;
+        top: 28.5em
+        +transition(0.7s cubic-bezier(.87,-.41,.19,1.10));
+}
+
+#backward{
+        margin-left: 2em;
+        margin-right: 2em;
+        color: gray;
+        font-size: 1.5em;
+        position: relative;
+        z-index: 5;
+        cursor: pointer
+        +transition(0.2s)
+        &:hover;
+        color: white;
+}
+      
+.play-song{
+        display: inline-block;
+	
+        #play{
+          font-size: 2em;
+          color: white;
+          position: relative;
+          z-index: 5;
+          left: 0px;
+          top: 2px;
+          cursor: pointer
+          +transition(0.2s)
+          &:hover;
+            color: purple;
+}
+}
 
 /*----Waves----*/
 
