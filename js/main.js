@@ -206,13 +206,13 @@ progressBar.parent().on('click mousemove', function(e) {
   }
 });
 	
-	audio = new Audio("music/Scrappy_Baby_Jams_Mastered.mp3");
+	audio[1] = new Audio("music/Scrappy_Baby_Jams_Mastered.mp3");
 
-        audio.addEventListener('ended',function(){
-        audio.src = "music/Scrappy_Baby_Jams_Mastered.mp3";
-        audio.pause();
-        audio.load();
-        audio.play();
+        audio[1].addEventListener('ended',function(){
+        audio[1].src = "music/Scrappy_Baby_Jams_Mastered.mp3";
+        audio[1].pause();
+        audio[1].load();
+        audio[1].play();
     });
 	
 	
