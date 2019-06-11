@@ -486,21 +486,89 @@ button {
 
 /*------Audio box2----*/      
 
-.player2 {
-  position: relative; 
-  float:right;
-  width: 20em;
-  min-height: 20em;
+.cover2,
+.cover2 div {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 6em;
+  height: 6em;
   overflow: hidden;
-  background-color: #eee;
-  border-radius: 0.25em;
-  box-shadow:
-  0 1.5em 2em -1em rgba(0,0,0,0.8),
-  inset 0 0.0625em 0 rgba(255,255,255,1),
-  inset 0 -0.125em 0.0625em rgba(0,0,0,0.3);
+  transform-origin: 0 0;
+  transform: rotate(0) translate(-50%,-50%);
+  border-radius: 50%;
+  animation: spin 4s linear infinite paused;
 }
 
+.ffing .cover2 {
+  animation-play-state: running;
+}
 
+.cover2 div {
+  border-radius: 0;
+  animation: spin 2s linear infinite reverse paused;
+}
+
+.rwing .cover2 div {
+  animation: spin 2s linear infinite reverse running;
+}
+
+.cover2::before,
+.cover2::after {
+  content: '';
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform-origin: 0 0;
+  transform: rotate(0) translate(-50%,-50%);
+  border-radius: 50%;
+  box-shadow: inset 0 0.0625em rgba(255,255,255,0.3);
+  animation: spin 4s linear infinite reverse paused;
+}
+
+.cover2::after {
+  width: 0.25em;
+  height: 0.3125em;
+  margin-top: -0.0625em;
+  background-color: #eee;
+  border-radius: 0.125em;
+  box-shadow:
+    inset 0 -0.0625em 0.0625em rgba(0,0,0,0.5),
+    inset 0.0625em -0.0625em 0.125em rgba(255,255,255,0.15),
+    inset -0.0625em -0.0625em 0.125em rgba(255,255,255,0.15),
+    inset 0 -0.125em 0.125em rgba(0,0,0,0.8),
+    0 0.0625em 0.0625em rgba(0,0,0,0.5),
+    0 0.0625em 0.25em 0.0625em rgba(0,0,0,0.15),
+    0 0 0.25em 0.125em rgba(0,0,0,0.15);
+}
+
+.ffing .cover2::before,
+.ffing .cover2::after {
+  animation-play-state: running;
+}
+
+.cover2 img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform-origin: 0 0;
+  transform: rotate(0) translate(-50%,-50%);
+  animation: spin 4s linear infinite paused;
+}
+
+.paused .cover2 img {
+  animation-play-state: paused;
+}
+
+.playing .cover2 img {
+  animation-play-state: running;
+}
 
 
 
