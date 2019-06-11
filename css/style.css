@@ -670,6 +670,8 @@ a:hover {
   height: 100%;
   width: 100%;
   background-color:white;
+  border-top: 5px solid #cc5500;
+  border-bottom:5px solid #0078ff;
  
   
 }
