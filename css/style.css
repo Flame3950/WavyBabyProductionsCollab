@@ -21,16 +21,17 @@ h1 {
 h2 { font-size: 87.5%; }
 
 .player {
-  position: relative;
+  /*position: relative; */
+  float:left;
   width: 20em;
   min-height: 20em;
   overflow: hidden;
   background-color: #eee;
   border-radius: 0.25em;
   box-shadow:
-    0 1.5em 2em -1em rgba(0,0,0,0.8),
-    inset 0 0.0625em 0 rgba(255,255,255,1),
-    inset 0 -0.125em 0.0625em rgba(0,0,0,0.3);
+  0 1.5em 2em -1em rgba(0,0,0,0.8),
+  inset 0 0.0625em 0 rgba(255,255,255,1),
+  inset 0 -0.125em 0.0625em rgba(0,0,0,0.3);
 }
 
 .album {
@@ -483,8 +484,21 @@ button {
   100% { transform: rotate(360deg) translate(-50%,-50%); }
 }
 
-      
+/*------Audio box2----*/      
 
+.player {
+ /* position: relative; */
+  float:right;
+  width: 20em;
+  min-height: 20em;
+  overflow: hidden;
+  background-color: #eee;
+  border-radius: 0.25em;
+  box-shadow:
+  0 1.5em 2em -1em rgba(0,0,0,0.8),
+  inset 0 0.0625em 0 rgba(255,255,255,1),
+  inset 0 -0.125em 0.0625em rgba(0,0,0,0.3);
+}
 
 
 
