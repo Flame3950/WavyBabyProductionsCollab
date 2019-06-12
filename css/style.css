@@ -2005,7 +2005,7 @@ a:hover {
 
 .testimonial-box {
   color: #fff;
-  display: flex;
+  display: inline;
  /* text-align: center; */
 }
 
