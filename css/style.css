@@ -2005,8 +2005,11 @@ a:hover {
 
 .testimonial-box {
   color: #fff;
-  display: flex;
- /* text-align: center; */
+  text-align: center;
+  height:360px;
+  position:relative;
+  margin-top:-35px;
+  margin-bottom:-15px;
 }
 
 .testimonial-box .author-test {
@@ -2038,12 +2041,17 @@ a:hover {
   line-height: 1.6;
 }
 
+.author-test{
+	/* display: flex; 
+	justify-content:space-around; */
+}
+
 .rounded-circle{
-	text-align:left;
+	 display: inline-block;
 }
 
 .rounded-circle1{
-	 text-align:right;
+	 
 }
 
 /*======================================
