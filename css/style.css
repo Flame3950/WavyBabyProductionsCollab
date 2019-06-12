@@ -2005,7 +2005,11 @@ a:hover {
 
 .testimonial-box {
   color: #fff;
-  text-align: center; 
+  text-align: center;
+  height:360px;
+  position:relative;
+  margin-top:-35px;
+  margin-bottom:-15px;
 }
 
 .testimonial-box .author-test {
