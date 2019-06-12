@@ -2038,8 +2038,8 @@ a:hover {
 }
 
 .author-test{
-	display: flex; 
-	justify-content:space-around;
+	/* display: flex; 
+	justify-content:space-around; */
 }
 
 .rounded-circle{
