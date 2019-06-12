@@ -9,6 +9,8 @@
 //--//-->   STYLES GENERALES
 ======================================*/
 
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
 
 
 /*------Audio box----*/
@@ -603,8 +605,6 @@ button {
 
 
 /*----Waves----*/
-
-@import url(https://fonts.googleapis.com/css?family=Lobster);
 
 .wavybaby{
 	 text-align:center;
