@@ -11,8 +11,9 @@
 
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 
-
-
+html { 
+	-webkit-text-size-adjust: none; 
+}
 /*------Audio box----*/
 
 h1 {
