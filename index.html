@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <title>WavyBabyProductions</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
+  <meta content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1" name="viewport">
+  <meta name="apple-mobile-web-app-capable" content="yes">  <meta content="" name="keywords">
   <meta content="" name="description">
-
+  
   <!-- Favicons -->
   <link href="img/favicon.ico" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -23,7 +23,12 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+  
+  <!-- For iPhone: -->
+<link media="only screen and (max-device-width: 480px)" href="small-device.css" type= "text/css" rel="stylesheet">
 
+<!-- For everything else: -->
+<link media="screen and (min-device-width: 481px)" href="not-small-device.css" type="text/css" rel="stylesheet">
   <!-- =======================================================
     Theme Name: DevFolio
     Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
