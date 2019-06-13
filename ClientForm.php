@@ -8,8 +8,8 @@
     
     $email_subject = "New Form Submission";
     
-    $email_body = "User Name: $name.\n";
-                    "User Email: $visitor_email.\n";
+    $email_body = "User Name: $name.\n".
+                    "User Email: $visitor_email.\n".
                       "User Message: $message.\n";
                       
    
