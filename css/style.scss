@@ -1182,7 +1182,7 @@ footer {
 #sendmessage {
   color: $color-primary;
   border:1px solid $color-primary;
-  display:none;
+  display:inline;
   text-align:center;
   padding:15px;
   font-weight:600;
@@ -1191,7 +1191,7 @@ footer {
 
 #errormessage {
   color: red;
-  display:none;
+  display:inline;
   border:1px solid red;
   text-align:center;
   padding:15px;
@@ -1205,7 +1205,7 @@ footer {
 
 .validation {
   color: red;
-  display:none;
+  display:inline;
   margin: 0 0 20px;
   font-weight:400;
   font-size:13px;
