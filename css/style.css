@@ -2292,7 +2292,7 @@ footer .credits a {
 #sendmessage {
   color: #0078ff;
   border: 1px solid #0078ff;
-  display: inline;
+  display: none;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -2301,7 +2301,7 @@ footer .credits a {
 
 #errormessage {
   color: red;
-  display: inline;
+  display: none;
   border: 1px solid red;
   text-align: center;
   padding: 15px;
@@ -2317,7 +2317,7 @@ footer .credits a {
 
 .validation {
   color: red;
-  display: inline;
+  display: none;
   margin: 0 0 20px;
   font-weight: 400;
   font-size: 13px;
